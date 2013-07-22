@@ -25,7 +25,7 @@ end
 
 
 gem 'jquery-rails', "2.3.0"
->>>>>>> f396f8723f686fdc8bae5dcb6ebf9abc60faec0d
+
 
 gem 'quiet_assets' , :group => [:development]
 gem 'thin'
