@@ -1,6 +1,7 @@
 SmRc284::Application.routes.draw do
   resources :products
 
+  root :to => 'products#index'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
@@ -54,7 +55,7 @@ SmRc284::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'products#index'
+
 
   # See how all your routes lay out with "rake routes"
 
